@@ -9,7 +9,7 @@
 
 // Caso tenha necessidade de modificar algo fique a vontade!
 
-```js
+`
  // crie um webhook no canal que deseja receber os últimos votos e configure essa primeira linha
   const voto = new Discord.WebhookClient('ID do WebHook', 'Token do WebHook')
 
@@ -46,4 +46,4 @@ client.on("message", async message => {
     console.log('Algo aconteceu :/\n' + e)
   }
 })
-```
+`
