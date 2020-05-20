@@ -5,9 +5,9 @@
 * Modificado: Você?#1330
 * Bot: https://botsparadiscord.com/bots/647956954358218752
 * Servidor: https://discord.com/invite/y2gAPVA
+* 
+*  Caso tenha necessidade de modificar algo fique a vontade!
 */
-
-// Caso tenha necessidade de modificar algo fique a vontade!
 
  // crie um webhook no canal que deseja receber os últimos votos e configure essa primeira linha
   const voto = new Discord.WebhookClient('ID do WebHook', 'Token do WebHook')
