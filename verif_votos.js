@@ -1,15 +1,15 @@
 # Verificador-de-Votos
 
-Verifica votos do Bots Para Discord, sem a necessidade de API
+/* Verifica votos do Bots Para Discord, sem a necessidade de API
+* Créditos: wiloficial#9287
+* Modificado: Você?#1330
+* Bot: https://botsparadiscord.com/bots/647956954358218752
+* Servidor: https://discord.com/invite/y2gAPVA
+*/
 
-Créditos: wiloficial#9287
-Modificado: Você?#1330
-Bot: https://botsparadiscord.com/bots/647956954358218752
-Servidor: https://discord.com/invite/y2gAPVA
+// Caso tenha necessidade de modificar algo fique a vontade!
 
-
-Caso tenha necessidade de modificar algo fique a vontade!
-
+```js
  // crie um webhook no canal que deseja receber os últimos votos e configure essa primeira linha
   const voto = new Discord.WebhookClient('ID do WebHook', 'Token do WebHook')
 
@@ -26,7 +26,7 @@ client.on("message", async message => {
       let parte_2 = parte_1.substr(7)
       let parte_3 = parte_2.substr(parte_2.indexOf(")", "."))
       parte_2.replace(parte_3, "")
-
+      
       let bot_name_1 = parte_3.replace(") votou no bot **`", '')
       let bot_name_2 = bot_name_1.replace("`**.", '')
       let bot_name_3 = bot_name_2.replace(`https://botsparadiscord.com/bots/${client.user.id}`, '')
@@ -46,3 +46,4 @@ client.on("message", async message => {
     console.log('Algo aconteceu :/\n' + e)
   }
 })
+```
