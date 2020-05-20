@@ -1,4 +1,4 @@
-# Verificador-de-Votos
+// # Verificador-de-Votos
 
 /* Verifica votos do Bots Para Discord, sem a necessidade de API
 * Créditos: wiloficial#9287
@@ -9,7 +9,6 @@
 
 // Caso tenha necessidade de modificar algo fique a vontade!
 
-`
  // crie um webhook no canal que deseja receber os últimos votos e configure essa primeira linha
   const voto = new Discord.WebhookClient('ID do WebHook', 'Token do WebHook')
 
@@ -46,4 +45,3 @@ client.on("message", async message => {
     console.log('Algo aconteceu :/\n' + e)
   }
 })
-`
