@@ -51,7 +51,7 @@ client.on("message", async message => { // Se o seu for "bot.on" só modificar.
         * O ID do usuário "userID"
         */
               
-              let userDiscord = await client.fetchUser(sep2) // Pesquise o usuário pelo ID, e envie uma mensagem informando que ganhou algo, ou agradeça pelo voto
+              let userDiscord = await client.fetchUser(userID) // Pesquise o usuário pelo ID, e envie uma mensagem informando que ganhou algo, ou agradeça pelo voto
               userDiscord.send(`Você votou no ZabbiX!
 *Para te agradecer pelo apoio:*
 
