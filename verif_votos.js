@@ -17,10 +17,6 @@
    channel_id = "537433191393525760" // Canal site_logs
 
 client.on("message", async message => { // Se o seu for "bot.on" só modificar.
- 
-        // configuração (Já está com o necessário)
-        const bot_id = "550305758583980042",//"550305758583980042" // BOT = Bots Para Discord
-         channel_id = "537433191393525760" //"537433191393525760" // Canal site_logs
 
         try {
           // Verifica se a mensssagem enviada é no canal especificado acima, e reparte toda a menssagem (caso seja)
